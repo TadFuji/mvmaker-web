@@ -2,7 +2,7 @@
 
 テーマを書くだけで、Google の AI が歌詞・曲・キャラクター・映像を作り、歌詞の字幕付きのミュージックビデオに仕上げるウェブページです。
 
-**使ってみる：https://mvmaker-web.vercel.app**（API キーがなくても「お試しモード」で流れを体験できます）
+** 使ってみる：https://mvmaker-web.vercel.app **（API キーがなくても「お試しモード」で流れを体験できます）
 
 - インストールは不要です。パソコンの Chrome・Edge・Safari で開いて使います。
 - 最初に Google の API キー（Google の AI を使うための鍵）を貼り付けます。料金は、キーの持ち主の Google アカウントに Google から直接請求されます。
