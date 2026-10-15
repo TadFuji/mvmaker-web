@@ -60,7 +60,7 @@
 
 ## 既知の問題・未確認事項
 
-- 本物のキーでの生成は未実施。依頼の形は前身の Mac アプリで実 API 確認済みの形を移したもの。ただし Nano Banana 2.1 は前身（gemini-3.1-flash-image）と別のモデル名で、ドキュメントの例と同じ `response_format`（`type: image`、`aspect_ratio`、`image_size`）にしてある。
+- 本物のキーでは、2026-10-15 に歌詞・曲・画像（Nano Banana 2.1）まで生成できたことを確認した。動画（Omni）の生成と、その動画の受け取り・書き出しは、本物ではまだ確認していない。「指示して直す」も本物では未確認。
 - 書き出しは Chrome（MP4）で確認した。Safari・Firefox（WebM になる）は未確認。書き出した MP4 を QuickTime で再生できるかは未確認。
 - Omni の動画は `delivery: 'uri'` で受け取り、`/files/{id}:download` を CORS で取得する（プリフライトは許可されていることを確認済み。実際のダウンロードは未確認）。
 - キー欄の伏せ字（`-webkit-text-security`）が Firefox で効くかは未確認。効かない場合は、キーがそのまま画面に見える（送信や保存には影響しない）。

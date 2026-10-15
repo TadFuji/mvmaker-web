@@ -1,3 +1,5 @@
 .claude/
 .DS_Store
 CLAUDE.local.md
+.vercel/
+node_modules/
