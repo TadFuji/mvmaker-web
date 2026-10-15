@@ -1,0 +1,5 @@
+tests/
+scripts/
+*.md
+_headers
+.claude/

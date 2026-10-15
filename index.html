@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  Security: only this site's own files may run, and the page may only talk to
+  the Gemini API. No third-party scripts, fonts or analytics.
+  frame-ancestors / HSTS etc. are sent as HTTP headers (see _headers).
+-->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' blob: data:; media-src 'self' blob:; connect-src 'self' https://generativelanguage.googleapis.com; font-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; require-trusted-types-for 'script'; trusted-types 'none'">
+<meta name="referrer" content="strict-origin">
+<title>MVメーカー</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="app.css">
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+<noscript><p class="noscript">このページを使うには JavaScript を有効にしてください。</p></noscript>
+<div id="app" aria-live="polite"></div>
+</body>
+</html>

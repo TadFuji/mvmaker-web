@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-14T23:55:26.351Z",
+  "source": "snapshot",
+  "models": {
+    "lyria-3.5": {
+      "perSong": 0.08
+    },
+    "gemini-nano-banana-2.1": {
+      "perImage": 0.0403
+    },
+    "gemini-omni-1.1-flash": {
+      "perSecond": 0.1014,
+      "outPerM": 17.5
+    }
+  }
+}
